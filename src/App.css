@@ -1,38 +1,26 @@
 .App {
   text-align: center;
+  font-family: 'Ubuntu', sans-serif; 
+  color: #312f58;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ubuntu-sans {
+  font-family: 'Ubuntu', sans-serif; /* Ensure the name matches */
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings: 'wdth' 100;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sedan-sc-regular {
+  font-family: 'Sedan SC', serif; /* Ensure the name matches */
+  font-weight: 400;
+  font-style: normal;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.main-content {
+  min-height: calc(100vh - 50px); /* Adjust 100vh by the footer's height */
+  padding-bottom: 50px; /* Space for the footer */
+  overflow: hidden; /* Ensures no overflow of content */
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

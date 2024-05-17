@@ -1,0 +1,11 @@
+.contact-us{
+    position: relative;
+    padding: 10px 0;
+    /* background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../img/.jpg"); */
+    background-color: #312f58;
+}
+
+.contact-us h1{
+    font-size:45px;
+    font-weight: bold;
+}

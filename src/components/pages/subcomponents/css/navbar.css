@@ -1,0 +1,28 @@
+.navbar {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Horizontal offset, vertical offset, blur radius, spread radius, color */
+}
+
+.navbar-logo{
+  width:65px;
+  height: auto;
+  padding-left:15px;
+  padding-right:10px
+}
+
+.navbar-brand{
+  font-weight: bold;
+  color: #312f58;
+}
+
+.nav-link{
+  color:#312f58;
+  padding:10px;
+}
+
+.nav-link:hover{
+  color:#46437d;
+}
+
+.container-fluid{
+  padding-left:0px;
+}

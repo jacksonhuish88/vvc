@@ -1,0 +1,79 @@
+.bg-image-fade {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('../img/bg-img.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 60vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    .bg-image-fade {
+        height: 100vh; /* Increase Height for smaller screens */
+    }
+}
+
+
+.container-custom-padding {
+    height: 100%;
+}
+
+/* Adjust column padding */
+.col-md-5, .col-md-7 {
+    padding: 50px; /* Default padding */
+}
+
+@media (max-width: 768px) {
+    .col-md-5{
+        padding-bottom: 0px; /* Increase Height for smaller screens */
+    }
+}
+
+
+.btn-primary {
+    background-color: #fe5438;
+    color: #312f58;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: rgb(221, 68, 44);
+    border: none;
+}
+
+/* Ensure buttons are comfortably clickable on mobile */
+@media (max-width: 768px) {
+    .btn-primary {
+        width: 100%; /* Full width on smaller screens for easier access */
+        padding: 10px; /* Increase padding for a better touch target */
+    }
+}
+
+h2 {
+    color: #312f58;
+    font-weight: bold;
+}
+
+.home p{
+    font-size:22px;
+}
+
+img {
+    border-radius: 10px;
+    max-width: 100%; /* Ensures images are responsive */
+    height: auto; /* Maintains aspect ratio */
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.75rem !important; /* Adjust font size for smaller screens */
+        padding-top:18px;
+    }
+
+    p{
+        font-size: 1rem !important; /* Adjust font size for smaller screens */
+    }
+
+}
