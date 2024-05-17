@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/vvc/static/css/main.f6f72eeb.css",
+    "main.js": "/vvc/static/js/main.2971bb4e.js",
+    "static/js/453.e4f08d43.chunk.js": "/vvc/static/js/453.e4f08d43.chunk.js",
+    "static/media/cancerkid.jpg": "/vvc/static/media/cancerkid.3e23189e4d0e36a69d42.jpg",
+    "static/media/bg-img.jpg": "/vvc/static/media/bg-img.ff8e1b986887581404fc.jpg",
+    "static/media/DJ.png": "/vvc/static/media/DJ.bdbdec7066395a5f2419.png",
+    "static/media/JJJ2.png": "/vvc/static/media/JJJ2.c47fb9b01ce78f4ffcfd.png",
+    "static/media/JJJ.png": "/vvc/static/media/JJJ.344225eb555adc181923.png",
+    "static/media/JJJ3.png": "/vvc/static/media/JJJ3.d5d103c63c6a95ca4c19.png",
+    "static/media/JY.jpeg": "/vvc/static/media/JY.4c8433adb4f7a5a8c84f.jpeg",
+    "static/media/JH.JPEG": "/vvc/static/media/JH.2cd0607f298f269d2d96.JPEG",
+    "static/media/logo.PNG": "/vvc/static/media/logo.3446f352e564c191701b.PNG",
+    "index.html": "/vvc/index.html",
+    "main.f6f72eeb.css.map": "/vvc/static/css/main.f6f72eeb.css.map",
+    "main.2971bb4e.js.map": "/vvc/static/js/main.2971bb4e.js.map",
+    "453.e4f08d43.chunk.js.map": "/vvc/static/js/453.e4f08d43.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6f72eeb.css",
+    "static/js/main.2971bb4e.js"
+  ]
+}
